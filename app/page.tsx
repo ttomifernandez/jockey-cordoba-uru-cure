@@ -28,11 +28,11 @@ export default function Home() {
                   <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">
                     M19 B
                   </h3>
-                  <p className="text-blue-100">
+                  <p className="text-white text-opacity-90">
                     Jockey Club Córdoba vs Uru Cure
                   </p>
                 </div>
-                <div className="text-3xl md:text-4xl font-bold text-orange-400">
+                <div className="text-3xl md:text-4xl font-bold text-orange-300">
                   13:00
                 </div>
               </div>
@@ -41,9 +41,9 @@ export default function Home() {
                   href="https://www.rugbyproscore.com.ar/match/oQq6iq0S6tr9xmuQOXJo"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-6 rounded-lg transition-colors"
+                  className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-8 rounded-lg transition-colors shadow-lg"
                 >
-                  Mirar
+                  Mirar en Vivo
                 </a>
               </div>
             </div>
@@ -55,11 +55,11 @@ export default function Home() {
                   <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">
                     M19 A
                   </h3>
-                  <p className="text-blue-100">
+                  <p className="text-white text-opacity-90">
                     Jockey Club Córdoba vs Uru Cure
                   </p>
                 </div>
-                <div className="text-3xl md:text-4xl font-bold text-orange-400">
+                <div className="text-3xl md:text-4xl font-bold text-orange-300">
                   14:20
                 </div>
               </div>
@@ -68,9 +68,9 @@ export default function Home() {
                   href="https://www.rugbyproscore.com.ar/match/ByoyCYczZzT2v43C7fTb"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-6 rounded-lg transition-colors"
+                  className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-8 rounded-lg transition-colors shadow-lg"
                 >
-                  Mirar
+                  Mirar en Vivo
                 </a>
               </div>
             </div>
