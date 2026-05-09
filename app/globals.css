@@ -1,8 +1,34 @@
 @import "tailwindcss";
 
+/* Color Palette */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Primarios */
+  --color-navy: #0f3a5e;
+  --color-navy-light: #1a4a73;
+  --color-gold: #d4a547;
+  --color-gold-light: #e8b854;
+  
+  /* Secundarios */
+  --color-white: #ffffff;
+  --color-gray-50: #f8f9fa;
+  --color-gray-100: #f3f4f6;
+  --color-gray-600: #4b5563;
+  --color-gray-800: #1f2937;
+  
+  /* Acentos */
+  --color-accent-blue: #2563eb;
+  --color-accent-orange: #f97316;
+  
+  /* Texto */
+  --text-primary: #1f2937;
+  --text-secondary: #6b7280;
+  --text-light: #ffffff;
+  
+  /* Sombras */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.15);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.2);
 }
 
 @theme inline {
@@ -12,15 +38,80 @@
   --font-mono: var(--font-geist-mono);
 }
 
+body {
+  background: var(--color-white);
+  color: var(--text-primary);
+  font-family: var(--font-geist-sans), -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  line-height: 1.6;
+}
+
+/* Tipografía Jerarquizada */
+h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  letter-spacing: -2px;
+  line-height: 1.1;
+  color: var(--color-navy);
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  line-height: 1.3;
+  color: var(--color-navy);
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -0.25px;
+  line-height: 1.4;
+  color: var(--color-navy);
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text-secondary);
+}
+
+.text-subtitle {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--color-gold);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Transiciones suaves */
+* {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Focus states accesibles */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--color-accent-blue);
+  outline-offset: 2px;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  
+  body {
+    background: #0f1419;
+    color: var(--color-white);
+  }
+  
+  h1, h2, h3 {
+    color: var(--color-white);
+  }
+  
+  p {
+    color: #d1d5db;
+  }
 }
