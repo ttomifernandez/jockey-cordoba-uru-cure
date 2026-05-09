@@ -38,7 +38,9 @@ export default function Home() {
               </div>
               <div className="mt-4">
                 <a
-                  href="#"
+                  href="https://www.rugbyproscore.com.ar/match/oQq6iq0S6tr9xmuQOXJo"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-6 rounded-lg transition-colors"
                 >
                   Mirar
@@ -63,7 +65,9 @@ export default function Home() {
               </div>
               <div className="mt-4">
                 <a
-                  href="#"
+                  href="https://www.rugbyproscore.com.ar/match/ByoyCYczZzT2v43C7fTb"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-6 rounded-lg transition-colors"
                 >
                   Mirar
@@ -72,7 +76,7 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Footer */}
+          {/* Footer */
           <div className="text-center text-blue-100 text-sm">
             <p>© 2026 Jockey Club Córdoba</p>
           </div>
